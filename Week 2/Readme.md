@@ -1,1 +1,1 @@
-
+#In this lab, I began an MVC application for the online retail clothing store described in week 1. In the index.cshtml file, I included the summary of the web application and added an image to the homepage by adding an image folder to the wwwroot folder. I added the custom.css file and within it, adjusted the width of the image to make it bigger. I ran the app and in my broswer, the resulting page looked similar to the sample image given in the week's assignment instructions. 
