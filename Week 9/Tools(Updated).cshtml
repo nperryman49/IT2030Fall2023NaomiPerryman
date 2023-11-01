@@ -1,0 +1,47 @@
+@* Updated Tools view code You can compare with what you had to see the differences *@
+@model NaomiRetroCloset.Models.MySession
+
+@{
+    ViewData["Title"] = "Tools View";
+}
+
+<h1>Session Data</h1>
+
+<h4>MySession</h4>
+<hr />
+<div class="row">
+    <div class="col-md-3">
+        <form asp-action="Tools" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" readonly />
+                
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" readonly />
+                
+            </div>
+            <div class="form-group">
+                <label asp-for="Course" class="control-label"></label>
+                <input asp-for="Course" class="form-control" readonly />
+                
+            </div>
+            <div class="form-group">
+                <label asp-for="FavNum" class="control-label"></label>
+                <input asp-for="FavNum" class="form-control" readonly />
+                
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Display Session Variables" class="btn btn-primary" />
+                <a asp-action="Tools" class="btn btn-success" > Clear</a>
+                
+            </div>
+        </form>
+
+    </div>
+</div>
+
+
+
