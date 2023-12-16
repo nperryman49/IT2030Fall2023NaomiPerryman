@@ -17,8 +17,21 @@ List three features that can be added to your application to improve the applica
 
 Code one of the features listed in (2) above and provide information of what you coded in your blackboard submission. 
 Note: The information provided in your blackboard submission should give a summary of what was coded in your project as well as the file(s) that has the code feature applied to it.
+1. I attempted to make a search results filter to the products page, and added code from chapter 13 to a SearchData.cs file and to a SearchViewModel.cs file, however ran into an error on the SearchData file and
+   so was unable to add code to the controller. This would be a feature I would look into more if I had more time in order to correctly code a search filter for the products display page. The code was
+   added to the following files: 
+
+\NaomiRetroCloset\Data\SearchData.cs
+\NaomiRetroCloset\Models\SearchViewModel.cs
 
 
 Make a copy of your Week 14 lab files and using the copy, make 4 style updates to your application. Specify the filename(s) that has the 4 updates and specify the 4 style updates as well in your Readme.md file. 
 Include entire filename path when specifying filename(s).
-1. To better display the items on the homepage navbar, I made the link list items white in color and contain a bold font-weight. 
+1. To better display the items on the homepage navbar, I made the link list items white in color and contain a bold font-weight.
+2. I changed the HomepageImage.jpg to be larger to better align with with width of the pages' content.
+3. The background of all pages were changed to a light yellow to give off a vintage feel in accordance to the content of the web app.
+4. The background color of the navbar was changed to a grey to better go with the yellow background instead of the primary blue.
+
+   Files that contain these changes are:
+   C:\Users\nfper\OneDrive\Documents\ASPnet\NaomiRetroCloset - Copy\NaomiRetroCloset\wwwroot\css\custom.css
+   C:\Users\nfper\OneDrive\Documents\ASPnet\NaomiRetroCloset - Copy\NaomiRetroCloset\Views\Shared\_Layout.cshtml
